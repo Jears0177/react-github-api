@@ -2,6 +2,7 @@
 
 Demo version of app: https://startup-summer2021.vercel.app/
 
+![image](https://user-images.githubusercontent.com/48132822/126185766-64338b4a-63a4-4437-b0bd-06dad3809c03.png)
 
 
 Для установки данного приложения на свой компьютер, вам необходимо:

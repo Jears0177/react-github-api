@@ -1,0 +1,49 @@
+.repo-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1030px;
+}
+
+.repo-list-wrapper{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-img{
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    margin-top: 2rem;
+}
+
+.stand-text{
+    display: flex;
+    justify-content: center;
+    width: 243px;
+    font-size: 22px;
+    line-height: 140%;
+    color: #808080;
+}
+
+@media (max-width: 320px) {
+    .repo-list-responsive{
+        width: 320px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .repo-list-responsive{
+        width: 425px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .repo-list-responsive{
+        width: 768px;
+    }
+}

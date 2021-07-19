@@ -1,0 +1,85 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0064EB;
+    width: 1366px;
+    height: 72px;
+}
+
+.search-engine{
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    border-color: #ffffff00;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url('/src/assets/icon-imagel.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input:focus{
+    border-color: #ffffff00;
+}
+
+.logo{
+   margin-left: 41px;
+   margin-right: 22.02px;
+}
+
+@media screen and (max-width: 320px) {
+    .header-responsive{
+        height: 64px !important;
+        width: 320px !important;
+    }
+
+    input.search-responsive{
+        width: 200px !important;
+        height: 35px !important;
+    }
+
+    .logo-responsive img{
+        height: 32px !important;
+        width: 32px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-responsive{
+        height: 64px !important;
+        width: 425px !important;
+    }
+
+    input.search-responsive{
+        width: 200px !important;
+        height: 35px !important;
+    }
+
+    .logo-responsive img{
+        height: 32px !important;
+        width: 32px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-responsive{
+        height: 64px;
+        width: 768px;
+    }
+
+    input.search-responsive{
+        width: 400px;
+        height: 35px;
+    }
+
+    .logo-responsive img{
+        height: 32px;
+        width: 32px;
+    }
+}
+
+
+

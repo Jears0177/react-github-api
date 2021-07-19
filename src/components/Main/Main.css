@@ -1,0 +1,24 @@
+.main{
+  display: flex;
+}
+
+@media screen and (max-width: 320px) {
+  .main-res{
+    display: block !important;
+    width: 320px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main-res{
+    display: block !important;
+    width: 425px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-res{
+    display: block;
+    width: 768px;
+  }
+}

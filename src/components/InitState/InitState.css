@@ -1,0 +1,33 @@
+.init-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.init-wrapper{
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-img{
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    margin-top: 2rem;
+}
+
+.init-text{
+    width: 210px;
+    font-size: 22px;
+    line-height: 140%;
+    color: #808080;
+}
+
+.sec-text{
+    display: flex;
+    justify-content: center;
+}
